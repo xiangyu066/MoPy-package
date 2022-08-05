@@ -1,2 +1,7 @@
 # MoPy
-This is a very powerful and efficient analysis toolbox for the bacterial flagellar motor (BFM) research.
+This is a very powerful and efficient analysis toolbox (support CPUs and GPU) for the bacterial flagellar motor (BFM) research.\
+\
+**[Content]:**
+- Analysis 1: [MSD calculation](https://github.com/xiangyu066/)
+- Analysis 2: [Bead-assay](https://github.com/xiangyu066/)
+- Analysis 3: [Bacterial profile](https://github.com/xiangyu066/)
