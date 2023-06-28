@@ -63,7 +63,7 @@ for nSeed in range(1,nSeeds+1):
     
     ROI_=BF[row-16:row+16,col-16:col+16]
     ROI=np.reshape(ROI_,(1,32,32))
-    popts,xcs,ycs,z=BA.RotateSpeed_calc(ROI,SizeOfBead,bead_type,eff_pixelsize,'for-loop')
+    popts,xcs,ycs,z=BA.RotateSpeed_calc(ROI,SizeOfBead,bead_type,eff_pixelsize,'gaussian','for-loop')
     BA.Gaissian2DFit_Check(0,ROI,popts)
     
     # calculate FWHM

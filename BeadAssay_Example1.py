@@ -55,7 +55,7 @@ print("------------------------------------------------------------------")
 
 #%%
 if __name__ == '__main__':
-    popts,xcs,ycs,z=BA.RotateSpeed_calc(BF,SizeOfBead,bead_type,eff_pixelsize,'parallel')
+    popts,xcs,ycs,z=BA.RotateSpeed_calc(BF,SizeOfBead,bead_type,eff_pixelsize,'gaussian','parallel')
     xx,yy,zz,params=BA.EllipseFit(xcs,ycs)
     
     print("The loaction of cneter (x0,y0): (%s, %s)" % (params[0],params[1]))

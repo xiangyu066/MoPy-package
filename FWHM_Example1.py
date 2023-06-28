@@ -45,7 +45,7 @@ print("Total frames: "+str(nFrames))
 #%%
 if __name__ == '__main__':
     # using 'parallel' to do gaussian fitting
-    popts,xcs,ycs,z=BA.RotateSpeed_calc(BF,SizeOfBead,bead_type,eff_pixelsize,'for-loop')
+    popts,xcs,ycs,z=BA.RotateSpeed_calc(BF,SizeOfBead,bead_type,eff_pixelsize,'gaussian','for-loop')
     
     checkFrame=0
     print("Check nFrmae = "+str(checkFrame)+".")

@@ -68,7 +68,7 @@ if __name__ == '__main__':
     print("------------------------------------------------------------------")
     
     # using 'for-loop' to do gaussian fitting
-    popts1,xcs1,ycs1,z1=BA.RotateSpeed_calc(BF,SizeOfBead,bead_type,eff_pixelsize,'for-loop')
+    popts1,xcs1,ycs1,z1=BA.RotateSpeed_calc(BF,SizeOfBead,bead_type,eff_pixelsize,'gaussian','for-loop')
     xx1,yy1,zz1,params1=BA.EllipseFit(xcs1,ycs1)
     
     print("The loaction of cneter (x0,y0): (%s, %s)" % (params1[0],params1[1]))
@@ -101,7 +101,7 @@ if __name__ == '__main__':
     print("------------------------------------------------------------------")
     
     # using 'parallel' to do gaussian fitting
-    popts2,xcs2,ycs2,z2=BA.RotateSpeed_calc(BF,SizeOfBead,bead_type,eff_pixelsize,'parallel')
+    popts2,xcs2,ycs2,z2=BA.RotateSpeed_calc(BF,SizeOfBead,bead_type,eff_pixelsize,'gaussian','parallel')
     xx2,yy2,zz2,params2=BA.EllipseFit(xcs2,ycs2)
     
     print("The loaction of cneter (x0,y0): (%s, %s)" % (params2[0],params2[1]))
