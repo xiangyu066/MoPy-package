@@ -6,5 +6,5 @@ This is a very powerful and efficient analysis toolbox (support CPUs and GPU) fo
 - Analysis 2: [Bead-assay](https://github.com/xiangyu066/MoPy)
 - Analysis 3: [Bacterial profile](https://github.com/xiangyu066/MoPy)
 
-**[Test dataset]: because of large file size, please download from below link**
-- 
+**[Test dataset]:** (Due to large size of test dataset, please download from below link.)
+- Bacterial contour:
