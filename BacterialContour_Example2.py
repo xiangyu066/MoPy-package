@@ -71,14 +71,14 @@ print("------------------------------------------------------------------")
 
 #%% Fitting
 print("Fitting (for-loop)...")
-# tic=time.time()
-# out=BC.modified_SuperEllipse_Fit(x, y,'for-loop')
-# print("--- %s seconds ---" % (time.time()-tic))
+tic=time.time()
+out=BC.modified_SuperEllipse_Fit(x, y,'for-loop')
+print("--- %s seconds ---" % (time.time()-tic))
 
-# print("Fitting (vectorization)...")
-# tic=time.time()
-# out=BC.modified_SuperEllipse_Fit(x, y,'vectorization')
-# print("--- %s seconds ---" % (time.time()-tic))
+print("Fitting (vectorization)...")
+tic=time.time()
+out=BC.modified_SuperEllipse_Fit(x, y,'vectorization')
+print("--- %s seconds ---" % (time.time()-tic))
 
 print("Fitting (gpu)...")
 tic=time.time()

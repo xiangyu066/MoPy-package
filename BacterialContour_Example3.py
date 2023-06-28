@@ -34,17 +34,17 @@ print("------------------------------------------------------------------")
 Obj_Mag             =100                                                        # the magnificant of objective
 NA                  =1.45                                                                         # the numerical aperture
 wavelength          =550*(nm)                                                   # the fluorescence emission wavelength
-Relay_Mag           =2.5                                                        # relay lens
-pixelsize           =13*(um)                                                   # the pixel size of CCD
+Relay_Mag           =1.0                                                        # relay lens
+pixelsize           =6.5*(um)                                                   # the pixel size of CCD
 
 # digital image processing parameters
 thresh_method       ='Customized'                                               # the method of threshold
-division_coeff      =0.5                                                        # determinate if division
+division_coeff      =0.7                                                        # determinate if division
 neighbor_dist       =1*(um)                                                     # safe distance between available cells
 border_dist         =0*(um)                                                     # define a safe border distance
 
 # working directory
-inputdir=r'.\Datasets\BacterialContour\E. coli\HM06 (20211102, from Yu)\TB'
+inputdir=r'.\Datasets\BacterialContour\Vibrio fischeri\ATCC7744 (20210603, from XYZ)'
 
 #%% Initialization
 print('Initializing...')
@@ -126,6 +126,9 @@ for nFile in range(nFiles):
             plt.yticks(fontsize=14)
             plt.axis('equal')
             plt.grid(lw=0.3)
+            outputname=listing[nFile].replace(inputdir+'\\','')
+            outputname=outputname.replace('.tif','')
+            plt.savefig(outputdir+'\\'+outputname+'_nCell '+str(nCell)+'.png',bbox_inches='tight')
             plt.show()
         except ValueError:
             print('Something wrong!')
@@ -148,6 +151,8 @@ if len(data)>10:
     plt.yticks(fontsize=14)
     plt.xlim((0,5))
     plt.grid(lw=0.3)
+    plt.savefig(outputdir+'\\'+'histogram of length.png',bbox_inches='tight')
+    plt.show()
     
     plt.figure(figsize=(6,6))
     plt.hist(b_list,np.arange(0,1,0.02),weights=np.ones_like(b_list)/len(b_list),histtype='step')
@@ -157,6 +162,8 @@ if len(data)>10:
     plt.yticks(fontsize=14)
     plt.xlim((0,1))
     plt.grid(lw=0.3)
+    plt.savefig(outputdir+'\\'+'histogram of width.png',bbox_inches='tight')
+    plt.show()
     
     plt.figure(figsize=(6,6))
     plt.hist(m_list,np.arange(1,10,0.5),weights=np.ones_like(m_list)/len(m_list),histtype='step')
@@ -166,6 +173,8 @@ if len(data)>10:
     plt.yticks(fontsize=14)
     plt.xlim((1,10))
     plt.grid(lw=0.3)
+    plt.savefig(outputdir+'\\'+'histogram of geometric order m.png',bbox_inches='tight')
+    plt.show()
     
     plt.figure(figsize=(6,6))
     plt.hist(n_list,np.arange(1,3,0.1),weights=np.ones_like(n_list)/len(n_list),histtype='step')
@@ -175,6 +184,8 @@ if len(data)>10:
     plt.yticks(fontsize=14)
     plt.xlim((1,3))
     plt.grid(lw=0.3)
+    plt.savefig(outputdir+'\\'+'histogram of geometric order n.png',bbox_inches='tight')
+    plt.show()
     
     plt.figure(figsize=(6,6))
     plt.hist(k_list,np.arange(0,0.5,0.02),weights=np.ones_like(k_list)/len(k_list),histtype='step')
@@ -184,6 +195,8 @@ if len(data)>10:
     plt.yticks(fontsize=14)
     plt.xlim((0,0.5))
     plt.grid(lw=0.3)
+    plt.savefig(outputdir+'\\'+'histogram of bending factor.png',bbox_inches='tight')
+    plt.show()
     
     plt.figure(figsize=(6,6))
     plt.hist(p_list,np.arange(0,0.5,0.02),weights=np.ones_like(p_list)/len(p_list),histtype='step')
@@ -193,6 +206,8 @@ if len(data)>10:
     plt.yticks(fontsize=14)
     plt.xlim((0,0.5))
     plt.grid(lw=0.3)
+    plt.savefig(outputdir+'\\'+'histogram of cap difference.png',bbox_inches='tight')
+    plt.show()
 
 
 #%%
