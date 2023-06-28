@@ -16,6 +16,7 @@ Log:
     < version = 1.8.5 > - 2023.06.28
         1. Rename MSD to MSD2 and modify name of variables in MSD_Example.py.
         2. Add saving fitting results in BacterialContour_Example3.py.
+        3. Modify varargin of "RotateSpeed_calc" in BeadAssay_Example1.py, BeadAssay_Example3.py, BeadAssay_Example4.py, FWHM_Example1.py and FWHM_Example2.py.
     
     < version = 1.8.4 > - 2023.03.29
         1. Add a parameter "fit_type" of RotateSpeed_calc in the module of BeadAssay. (need to modify some examples)  
