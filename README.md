@@ -8,7 +8,7 @@ MoPy package is a very powerful and efficient analysis toolbox for the bacterial
 - [DDM]()
 - [PhaseSpatialTracker]()
 
-**[dataSets]:** (Due to large size of test dataset, please download from below link and unzip to directory "Datasets".)
+**[dataSets]:** (Due to large size of test dataset, please download from below link and unzip to directory "dataSets".)
 - Bead-assay:
 - Evolution Tree:
 - Bacterial contour:
