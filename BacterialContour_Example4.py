@@ -28,10 +28,10 @@ print("------------------------------------------------------------------")
 
 #%% Single-cell size-profile meausrement 
 # eff_pixelsize=0.052 # um
-# inputdir=r'.\Datasets\EvolutionTree\E. coli\HM06 (from CYC)\Gelpad\1228_PC test'
+# inputdir=r'.\dataSets\EvolutionTree\E. coli\HM06 (from CYC)\Gelpad\1228_PC test'
 
 eff_pixelsize=0.065 # um
-inputdir=r'.\Datasets\EvolutionTree\V. alginolyicus\VIO5\Gelpad\20230302'
+inputdir=r'.\dataSets\EvolutionTree\V. alginolyicus\VIO5\Gelpad\20230302'
 
 nFile=0 # starting index of file is 0
 nCell_list=[41,48] # the labelling number show on the last frame

@@ -36,7 +36,7 @@ SizeOfBead                      =1 *(um)
 bead_type                       ='bright'
 
 # load images
-inputfile=r'.\Datasets\BeadAssay\Test_crop (by KC)\Test_crop.tif'
+inputfile=r'.\dataSets\BeadAssay\Test_crop (by KC)\Test_crop.tif'
 BF=io.imread(inputfile)
 
 nFrames,height,width=BF.shape

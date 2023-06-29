@@ -34,7 +34,7 @@ SizeOfBead                      =0.1 *(um)
 bead_type                       ='bright'
 
 # load images
-inputfile=r'.\Datasets\FWHM\100nm fluo beads\Test crop (20220302 by XYZ)\Stack0.tif'
+inputfile=r'.\dataSets\FWHM\100nm fluo beads\Test crop (20220302 by XYZ)\Stack0.tif'
 BF=io.imread(inputfile)
 
 nFrames,height,width=BF.shape

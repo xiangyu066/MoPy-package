@@ -44,7 +44,7 @@ neighbor_dist       =1*(um)                                                     
 border_dist         =0*(um)                                                     # define a safe border distance
 
 # working directory
-inputdir=r'.\Datasets\BacterialContour\Vibrio fischeri\ATCC7744 (20210603, from XYZ)'
+inputdir=r'.\dataSets\BacterialContour\Vibrio fischeri\ATCC7744 (20210603, from XYZ)'
 
 #%% Initialization
 print('Initializing...')

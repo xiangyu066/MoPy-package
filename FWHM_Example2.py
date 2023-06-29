@@ -41,7 +41,7 @@ DL                              =(0.5*wavelength/NA)/eff_pixelsize
 
 #%%
 # load images
-inputfile=r'.\Datasets\FWHM\100nm fluo beads\Large field (20220330 by XYZ)\Quest_UQ_200ms3-1.tif'
+inputfile=r'.\dataSets\FWHM\100nm fluo beads\Large field (20220330 by XYZ)\Quest_UQ_200ms3-1.tif'
 BF=io.imread(inputfile)
 height,width=BF.shape
 print("The size of image: ("+str(height)+", "+str(width)+")")

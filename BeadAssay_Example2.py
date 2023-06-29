@@ -23,7 +23,7 @@ print("------------------------------------------------------------------")
 # load data
 print("Loading data...")
 tic=time.time()
-inputfile='.\\Datasets\\BeadAssay\\Test_trajectory (0420 1P2B0T by Sung)\\Test_trajectory (0420 1P2B0T by Sung).csv'
+inputfile='.\\dataSets\\BeadAssay\\Test_trajectory (0420 1P2B0T by Sung)\\Test_trajectory (0420 1P2B0T by Sung).csv'
 data=pd.read_csv(inputfile).values
 xcs,ycs=data[:,0],data[:,1]
 print("--- %s seconds ---" % (time.time()-tic))
