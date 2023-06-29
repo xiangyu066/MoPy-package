@@ -5,8 +5,10 @@ MoPy package is a very powerful and efficient analysis toolbox for the bacterial
 - [MSD2](https://github.com/xiangyu066/MoPy-package/blob/main/Docs/MSD2.md): MSD calculation ()
 - [BeadAssay](https://github.com/xiangyu066/MoPy-package/blob/main/Docs/BeadAssay.md): Bead-assay experiment (rotation speed analysis) and bead profile measurement (FWHM analysis)
 - [BacterialContour](https://github.com/xiangyu066/MoPy-package/blob/main/Docs/BacterialContour.md): Bacterial contour analysis (including length, width, bending and cap size)
+- [DDM]()
+- [PhaseSpatialTracker]
 
 **[dataSets]:** (Due to large size of test dataset, please download from below link and unzip to directory "Datasets".)
-- Bead Assay:
+- Bead-assay:
 - Evolution Tree:
 - Bacterial contour:
