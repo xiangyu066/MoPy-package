@@ -1,5 +1,5 @@
 # MoPy package
-This is a very powerful and efficient analysis toolbox (support CPUs and GPU) for the bacterial flagellar motor (BFM) research.\
+MoPy package is a very powerful and efficient analysis toolbox for the bacterial flagellar motor (BFM) research. The most research of BFM contains the mean-square displacement (MSD) calculation, rotation bead in 2-dimensional fitting, bacteria size measurement, and step detection. However, when you collect tens to hundreds of thousands of data points or images, the analysis time is at least hours to days. MoPy package is developed with parallel computing, including GPU and vectorization. Researchers can easily use this package to process high-throughput data in minutes to hours.\
 \
 **[Content]:**
 - Analysis 1: [MSD calculation](https://github.com/xiangyu066/MoPy)
