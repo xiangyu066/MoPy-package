@@ -8,7 +8,12 @@ MoPy package is a very powerful and efficient analysis toolbox for the bacterial
 - [DDM]()
 - [PhaseSpatialTracker](https://github.com/xiangyu066/Phase3DTracker): A single particle 3D tracking tool based on the phase-contrast imaging. 
 
-**[dataSets]:** (Due to large size of test dataset, please download from below link and unzip to directory "dataSets".)
-- Bead-assay:
+**[dataSets]:** (Due to large size of test dataset, please download from below link and unzip to directory "dataSets".)\
+[Download link](https://drive.google.com/drive/folders/1-JJgZDJw9vMe6YCLrdv64CB9P9j4LrH4?usp=sharing)\
+\
+**[Demo]:**
+- Bead-assay:\
+  <img src="https://github.com/xiangyu066/MoPy-package/blob/main/Docs/Demo_BA.png" width="70%">
 - Evolution Tree:
-- Bacterial contour:
+- Bacterial contour:\
+  <img src="https://github.com/xiangyu066/MoPy-package/blob/main/Docs/Demo_BC.PNG" width="70%">
