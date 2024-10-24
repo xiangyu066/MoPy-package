@@ -1,1 +1,4 @@
 # Module tutorial of BacterialContour
+The shape of bacteria is a closed border. It's easy to intuitively associate this shape with a circle or an ellipse. In contrast to a circle, an ellipse can interpret the length and width of a bacterium. However, the circular and oval shape lacks the description of the rod in the middle part. Hence, we modify an ellipse equation to a super-ellipse equation to fit the general geometric shape. Then, a curvilinear transformation is applied to describe more delicate features such as bending and egg shaping. Finally, we derived a parametric equation system to fully interpret the general bacterial profile such as semi-majority length a, semi-minor length b, cap curvature (m, n), bending coefficient k, cap difference p.\
+\
+<img src="https://github.com/xiangyu066/MoPy-package/blob/main/Docs/Formula_BC.PNG" width="100%">
