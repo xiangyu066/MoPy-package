@@ -14,7 +14,8 @@ MoPy package is a very powerful and efficient analysis toolbox for the bacterial
 **[Demo]:**
 - Bead-assay:\
   <img src="https://github.com/xiangyu066/MoPy-package/blob/main/Docs/Demo_BA.png" width="70%">
-- Evolution Tree:
+- Evolution Tree:\
+  <img src="https://github.com/xiangyu066/MoPy-package/blob/main/Docs/Demo_ET.PNG" width="100%">
 - MSD:\
   <img src="https://github.com/xiangyu066/MoPy-package/blob/main/Docs/MSD1.png" width="70%">\
   <img src="https://github.com/xiangyu066/MoPy-package/blob/main/Docs/MSD3.png" width="70%">
